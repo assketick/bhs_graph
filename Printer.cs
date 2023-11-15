@@ -8,7 +8,7 @@ class Printer: BaseBlock
     }
     public override void Run()
     {
-            Console.WriteLine(this.GraphInput.Link.Parent.Number);
+            Console.WriteLine($"Результат: {this.GraphInput.Link.Parent.Number}");
             Console.WriteLine("\n");
     }
 }
